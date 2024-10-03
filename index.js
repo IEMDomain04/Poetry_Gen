@@ -7,6 +7,11 @@ let favoritePlace = "Room";
 let temperature = 0.4; // AI configuration
 
 // Function to update activity and place
+function updateYourName() {
+    const nameInput = document.getElementById("name-input").value;
+    name = nameInput || name; // Update only if input is provided
+}
+
 function updateFavoriteActivity() {
     const activityInput = document.getElementById("activity-input").value;
     favoriteActivity = activityInput || favoriteActivity; // Update only if input is provided
@@ -19,7 +24,7 @@ function updateFavoritePlace() {
 
 // Attach event listeners to the buttons
 document.getElementById("save-button").addEventListener("click", () => {
-    updateFavoriteActivity(), updateFavoritePlace();
+    updateFavoriteActivity(), updateFavoritePlace(), updateYourName();
     generateTextAndImage(name, favoriteActivity, favoritePlace, temperature);
 });
 
