@@ -115,6 +115,39 @@ h2, h3 {
 }
 
 #name-input {
+    padding: 20px 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#activity-input {
+    padding: 20px 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#place-input {
+    padding: 20px 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#save-button {
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 360px) {
+    #name-input {
     padding: 8px 10px;
     display: block;
     margin-left: auto;
@@ -144,4 +177,5 @@ h2, h3 {
 #save-button {
     padding: 8px 15px;
     border-radius: 10px;
+}
 }
