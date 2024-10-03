@@ -120,5 +120,6 @@ h2, h3 {
 }
 
 #place-input {
+    width: 170px;
     padding: 8px 10px;
 }
