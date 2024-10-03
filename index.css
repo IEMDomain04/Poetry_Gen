@@ -115,5 +115,10 @@ h2, h3 {
 }
 
 #activity-input {
-    
+    padding: 8px 10px;
+    margin-bottom: 10px;
+}
+
+#place-input {
+    padding: 8px 10px;
 }
