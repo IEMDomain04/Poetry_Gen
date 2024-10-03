@@ -1,10 +1,10 @@
 import { generateTextAndImage } from "./utils.js"
 
 // Initialize default values
-let name = "Emman Manduriaga";
-let favoriteActivity = "Design and Programming";
-let favoritePlace = "Room";
-let temperature = 0.4; // AI configuration
+let name = "Default";
+let favoriteActivity = "Default";
+let favoritePlace = "Default";
+let temperature = 0.5; // AI configuration
 
 // Function to update activity and place
 function updateYourName() {
