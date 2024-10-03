@@ -22,7 +22,7 @@ body {
     margin: 0;
     color: var(--text-color);
     height: 100vh;
-    background: url("https://i.pinimg.com/originals/ac/84/36/ac843682a7392c63897909cbc9dd0981.gif");
+    background-image: url("https://i.pinimg.com/originals/ac/84/36/ac843682a7392c63897909cbc9dd0981.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -91,7 +91,6 @@ h2, h3 {
     text-transform: uppercase;
     line-height: 1.4em;
     padding: 10px;
-    background: rgba(0, 0, 0, 0.75);
 }
 
 .title  {

@@ -19,7 +19,7 @@ function stopLoading(name, url, quote) {
   quoteWrapper.style.display = "block"
   loader.style.display = "none"
   nameSpan.textContent = `${name} - ${getDate()}`
-  document.body.style.backgroundImage = `url(${url})`
+  //document.body.style.backgroundImage = `url(${url})`
   quoteSpan.textContent = quote
 }
 
