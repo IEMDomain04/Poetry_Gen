@@ -117,9 +117,16 @@ h2, h3 {
 #activity-input {
     padding: 8px 10px;
     margin-bottom: 10px;
+    border-radius: 10px;
 }
 
 #place-input {
     width: 170px;
     padding: 8px 10px;
+    border-radius: 10px;
+}
+
+#save-button {
+    padding: 8px 15px;
+    border-radius: 10px;
 }
