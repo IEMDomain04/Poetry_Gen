@@ -30,3 +30,9 @@ document.getElementById("save-button").addEventListener("click", () => {
 
 // Optional: Initial call with default values
 generateTextAndImage(name, favoriteActivity, favoritePlace, temperature);
+
+// Navigate to intruction Page
+document.getElementById("instruction-button").addEventListener('click', function() {
+    window.location.href = 'instruction_page/instruction.html';
+});
+

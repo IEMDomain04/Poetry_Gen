@@ -1,0 +1,33 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: var(--elegant-font);
+    margin: 0;
+    color: white;
+    height: 100vh;
+    background-image: url("https://i.pinimg.com/originals/ac/84/36/ac843682a7392c63897909cbc9dd0981.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.wrapper {
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(22, 43, 72, 0.85);
+}
+
+.list-wrapper {
+    padding: 5px 20px 5px 5px;
+    text-align: left;
+}
