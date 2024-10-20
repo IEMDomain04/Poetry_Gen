@@ -1,3 +1,4 @@
+// Utilities
 const imagePromptFromLocalStorage = localStorage.getItem("imagePrompt")
 const quotePromptFromLocalStorage = localStorage.getItem("quotePrompt")
 const imageUrlFromLocalStorage = localStorage.getItem("imageUrl")
